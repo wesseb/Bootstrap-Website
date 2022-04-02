@@ -1,0 +1,90 @@
+.navbar {
+    background-color: #3a7ab3;
+    border: 0;
+    border-radius: 0;
+    opacity: 0.9;
+}
+
+.navbar-nav {
+    font-weight: bold;
+}
+
+.navbar-right {
+    font-weight: normal;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #3a7ab3 !important;
+  background-color: white !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-defualt .navbar-nav .open .dropdown-menu>li>a, .navbar-default .navbar-nav .open .dropdown-menu {
+    background-color: #3a7ab3;
+}
+
+.logo {
+    color: #3a7ab3;
+    font-size: 50px;
+}
+
+#kontakt {
+    color: white !important;
+    background-color: #3a7ab3 !important;
+}
+
+#kontakt .row .col-sm-7 .row .col-sm-12 .btn {
+    color: black !important;
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+
+hr {
+    display: block; height: 1px; border: 0; border-top: 1px solid #3a7ab3;
+}
+
+.panel {
+    border: 1px solid #3a7ab3;
+    border-radius: 0;
+    transition: box-shadow 0.5s;
+}
+
+.panel:hover {
+    box-shadow: 1px 0px 10px rgba(0,0,0,.2)
+}
+
+.panel-heading, .panel-footer {
+    color: #fff !important;
+    background-color: #3a7ab3 !important;
+}
+
+.panel-footer .btn {
+    background-color: #fff !important;
+    color: #3a7ab3 !important;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+#listaProduktowa {
+    padding: 20px;
+    font-size: 20px;
+}
